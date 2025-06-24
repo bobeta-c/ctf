@@ -10,7 +10,7 @@ struct UserLocationData: Decodable {
 
 class NetworkManager {
     static let shared = NetworkManager()
-    private let baseURL = "http://localhost:5001/api" // Change to your server
+    private let baseURL = "http://ctf-zefb.onrender.com" // Change to your server
 
     func sendLocation(_ location: CLLocation, username: String, completion: @escaping (Bool) -> Void) {
         guard let url = URL(string: "\(baseURL)/location") else { completion(false); return }
