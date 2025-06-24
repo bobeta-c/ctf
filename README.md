@@ -1,7 +1,6 @@
 # Location Tracker iOS App
 
-This is an iOS application that securely tracks user location and communicates with a remote server. The app provides user authentication and continuously sends location data to a backend server.
-
+iOS app that allows user to play large scale capture the flag with friends
 ## Features
 
 - **Secure Authentication**: Login system with username/password
